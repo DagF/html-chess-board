@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<table class="chess-board">
+    <thead>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td data-column-letter="a" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="b" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="c" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="d" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="e" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="f" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="g" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="h" data-row-number="8" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td data-column-letter="a" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black1" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="b" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black2" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="c" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black3" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="d" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black4" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="e" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black5" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="f" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black6" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="g" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black7" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="h" data-row-number="7" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="black" id="black8" draggable="true" ondragstart="drag(event)"></span></td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td data-column-letter="a" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="b" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="c" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="d" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="e" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="f" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="g" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="h" data-row-number="6" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td data-column-letter="a" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="b" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="c" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="d" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="e" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="f" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="g" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="h" data-row-number="5" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td data-column-letter="a" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="b" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="c" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="d" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="e" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="f" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="g" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="h" data-row-number="4" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td data-column-letter="a" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="b" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="c" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="d" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="e" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="f" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="g" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="h" data-row-number="3" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td data-column-letter="a" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white1" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="b" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white2" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="c" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white3" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="d" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white4" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="e" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white5" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="f" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white6" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="g" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white7" draggable="true" ondragstart="drag(event)"></span></td>
+            <td data-column-letter="h" data-row-number="2" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"><span class="pawn" data-color="white" id="white8" draggable="true" ondragstart="drag(event)"></span></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td data-column-letter="a" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="b" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="c" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="d" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="e" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="f" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="g" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td data-column-letter="h" data-row-number="1" class="square" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td></td>
+        </tr>
+
+    </tbody>
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>
